@@ -11,4 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.card{
+text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px ;
+  max-width: 300px;
+  padding: 30px;
+  display: inline-block;
+  margin-left: 50px;
+  background-color: blanchedalmond;
+  
+}
+.hey{
+  display: inline-block;
+ 
+}
+#node{
+  background-color: cadetblue;
+}
+#js{
+  background-color: coral;
+}
+#css{
+  background-color: cornflowerblue;
+  margin-top: 30px;
+}
+#html{
+  background-color: darkslategrey;
+}
