@@ -1,12 +1,12 @@
-import Count from "./component/state/counter";
-import Table from "./component/state/table";
 
+
+import ConditionalRender from "./component/conditional-render/render";
 
 function App() {
   return (
     <>
-    <Count/><br></br><br></br>
-    <Table/>
+    
+   <ConditionalRender/>
    </>
   );
 }
