@@ -8,7 +8,7 @@ import ButtonComponent from "../button/button-component"
 
 const CardComponent=()=>{
     return(
-        <div className="hey">
+        <div >
             <div className="card">
          <ImageComponent/>
         <TextComponent/>
