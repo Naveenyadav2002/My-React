@@ -1,6 +1,6 @@
-import CardComponent from "../card/card-component"
+import CardComponent, { CardComponent5 } from "../card/card-component"
 import { CardComponent2 } from "../card/card-component"
-import { CardComponent3 } from "../card/card-component"
+import { CardComponent3,CardComponent4 } from "../card/card-component"
 
 
 
@@ -20,7 +20,7 @@ const Bootstrap=()=>{
     <div className="row">
       <div className="col-sm-4">
         <h3>Column 1</h3>
-        <CardComponent/>
+        <CardComponent4/>
       </div>
       <div className="col-sm-4">
         <h3>Column 2</h3>

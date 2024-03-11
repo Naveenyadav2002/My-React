@@ -2,9 +2,10 @@
 
 
 
-const ImageComponent=()=>{
+const ImageComponent=(prop)=>{
+    console.log(prop.ImageUrl)
     return(
-        <img src="./logo192.png" alt="reat-logo"></img>
+        <img src={prop.ImageUrl} alt="hello"></img>
     )
 }
 export default ImageComponent

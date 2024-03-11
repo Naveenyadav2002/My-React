@@ -1,19 +1,20 @@
 
 
-import ExternalComponent from "./component/styles/externalstyling";
-import ExternalModule from "./component/styles/external-module";
-import InlineStyle from "./component/styles/inlinestyles";
+import AccordionComponent from "./component/ReactBootstrap/accordion"
+import FakeStoreAccordionComponent from "./component/ReactBootstrap/fakestore-accordion"
+import CardComponent from "./component/card/card-component";
 import Bootstrap from "./component/styles/bootstrap";
-import ConditionalRender from "./component/conditional-render/render";
+import TextComponent from "./component/text/text";
 
 function App() {
   return (
     <>
-    {/* <InlineStyle/> <hr></hr>
-    <ExternalComponent/><hr></hr>
-     <ExternalModule/><hr></hr> */}
-    <Bootstrap/><hr></hr>
-   
+   {/* <AccordionComponent/>  */}
+    <FakeStoreAccordionComponent/>
+     <Bootstrap/>
+  {/* <TextComponent/>   */}
+ 
+
   
    </>
   );
