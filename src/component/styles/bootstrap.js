@@ -1,13 +1,15 @@
 import CardComponent, { CardComponent5 } from "../card/card-component"
 import { CardComponent2 } from "../card/card-component"
 import { CardComponent3,CardComponent4 } from "../card/card-component"
+import FakeStoreAccordionComponent from "../ReactBootstrap/fakestore-accordion"
 
 
 
 
 
 
-const Bootstrap=()=>{
+
+const Bootstrap=(nav)=>{
     return(
         <>
         
@@ -20,7 +22,10 @@ const Bootstrap=()=>{
     <div className="row">
       <div className="col-sm-4">
         <h3>Column 1</h3>
-        <CardComponent4/>
+        <CardComponent4 />
+        {/* {nav.boo.description} */}
+       
+
       </div>
       <div className="col-sm-4">
         <h3>Column 2</h3>

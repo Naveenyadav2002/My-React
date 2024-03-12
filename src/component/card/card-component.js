@@ -3,6 +3,7 @@
 import ImageComponent from "../image/image-component"
 import TextComponent from "../text/text"
 import ButtonComponent from "../button/button-component"
+import Bootstrap from "../styles/bootstrap"
 
 
 
@@ -10,13 +11,15 @@ import ButtonComponent from "../button/button-component"
     const {title,image,category,price}=props.item
 
     return(
-        < >
+        <>
            <div className="card">
 
          <ImageComponent ImageUrl={image}/> 
+         
         {/* <TextComponent/> */}
         <h3 >{category}</h3>
         <p>{title}</p>
+        
          <h4>${price}</h4>
          <ButtonComponent/>
 

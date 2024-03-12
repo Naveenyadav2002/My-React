@@ -2,6 +2,7 @@
 
 import Accordion from 'react-bootstrap/Accordion';
 import CardComponent from '../card/card-component';
+import Bootstrap from '../styles/bootstrap';
 
 function FakeStoreAccordionComponent() {
 
@@ -59,7 +60,8 @@ function FakeStoreAccordionComponent() {
             return(
                 <>
                 <AccordionItem data={eachObj}  />
-                <CardComponent item={eachObj} />
+                <CardComponent   item={eachObj} />
+                {/* <Bootstrap boo={eachObj}/> */}
                 </>
             )
             }
