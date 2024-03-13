@@ -6,15 +6,17 @@ import ButtonComponent from "../button/button-component"
 
 
 
-const CardComponent=()=>{
+const CardComponent=(get)=>{
     return(
         <div className="hey">
             <div className="card">
-         <ImageComponent/>
-        <TextComponent/>
-        <p>React is a library it forms specific task on USER INTERFACE.<br/>
-            The library for WEB and NATIVE
-        </p>
+         <ImageComponent data={get.item}/>
+        {/* <TextComponent/> */}
+        <h4>{get.item.category}
+            {/* React is a library it forms specific task on USER INTERFACE.<br/>
+            The library for WEB and NATIVE */}
+        </h4>
+        <h4>${get.item.price}</h4>
         <ButtonComponent/>
         </div>
         </div>

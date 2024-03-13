@@ -41,6 +41,7 @@ class Table extends Component {
                 <button onClick={() => this.tb1("naveen")}>employee-1</button>
                 <button onClick={() => this.tb2("kiran")}>employee-2</button>
                 <button onClick={() => this.tb3("praveen")}>employee-3</button>
+                <button >all employee</button>
                 
 
                 <table>

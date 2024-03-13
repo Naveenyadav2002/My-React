@@ -2,9 +2,10 @@
 
 
 
-const ImageComponent=()=>{
+const ImageComponent=(prop)=>{
     return(
-        <img src="./logo192.png" alt="reat-logo"></img>
+        <img src={prop.data.image} alt="reat-logo" style={{width:"150px", height:"150px"}}></img>
+        // {prop.data.image}
     )
 }
 export default ImageComponent
