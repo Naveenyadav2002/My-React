@@ -9,14 +9,9 @@ import Table from "./component/state/table";
 function App() {
   return (
     <>
-    {/* <ConditionalRender/>
-    <h2>Task-1</h2>
-    <Table/>
-    <h2>------------------------------</h2>
-    <h2>Task-2</h2>
-   <Count/> */}
+   
    <AxiosComponent/>
-   {/* <SpinnerComponent/> */}
+   
    </>
   );
 }

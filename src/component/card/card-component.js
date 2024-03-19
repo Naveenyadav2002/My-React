@@ -13,8 +13,7 @@ const CardComponent=(get)=>{
          <ImageComponent data={get.item}/>
         {/* <TextComponent/> */}
         <h4>{get.item.category}
-            {/* React is a library it forms specific task on USER INTERFACE.<br/>
-            The library for WEB and NATIVE */}
+            
         </h4>
         <h4>${get.item.price}</h4>
         <ButtonComponent/>
