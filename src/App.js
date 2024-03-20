@@ -11,6 +11,8 @@ import ProgressBar from "@ramonak/react-progress-bar";
 import 'react-circular-progressbar/dist/styles.css';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import CircularIndeterminate from "./component/progressbar/circularbars";
+import UpdatingComponent from "./component/lifecycle/updatingPhase";
+import Parent from "./component/lifecycle/unmountingPhase";
 
 
 
@@ -18,15 +20,10 @@ import CircularIndeterminate from "./component/progressbar/circularbars";
 function App() {
   return (
     <>
-   
-   {/* <AxiosComponent/> */}
-   <MountingComponent message="Welcome"/>
-{/* <ProgressBar/>
-<div style={{ width: 100, height: 100 , lineHeight:20}}>
-  <CircularProgressbar value={80} text={`${80}%`}/>
-</div> */}
 
-
+<UpdatingComponent messages="welcome"/>
+<h1>-----------------------</h1>
+<Parent/>
    </>
   );
 }
