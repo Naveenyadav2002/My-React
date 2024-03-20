@@ -1,7 +1,7 @@
 import { Component } from "react";
 import axios from "axios";
 import CardComponent from "../card/card-component";
-import SpinnerComponent from "../spinner/spinner";
+import LoadingSpinner from "../spinner/loading";
 import React from "react";
 
 

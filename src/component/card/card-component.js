@@ -12,10 +12,10 @@ const CardComponent=(get)=>{
             <div className="card">
          <ImageComponent data={get.item}/>
         {/* <TextComponent/> */}
-        <h4>{get.item.category}
+        <h4>{get.item.firstName}
             
         </h4>
-        <h4>${get.item.price}</h4>
+        <h4>Age:{get.item.age}</h4>
         <ButtonComponent/>
         </div>
         </div>
