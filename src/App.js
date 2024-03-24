@@ -23,11 +23,11 @@ function App() {
   return (
     <>
 {/* <MountingComponent/> */}
-{/* <UpdatingComponent messages="welcome"/>
+<UpdatingComponent messages="welcome"/>
 <h1>-----------------------</h1>
-<Parent/> */}
-{/* <ParentComponent/> */}
-<CircleComponent/>
+<Parent/>
+{/* <ParentComponent/>
+<CircleComponent/> */}
 
 </>
    
