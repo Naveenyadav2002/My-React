@@ -27,11 +27,9 @@ import UseStateComponent4 from "./component/hooks/useState4";
 function App() {
   return (
     <>
-{/* <UseStateComponent1/> 
- <UseStateComponent2/>
-<UseStateComponent3/>  */}
-<UseStateComponent4/>
- {/* <CircleComponent/> */}
+
+ <ParentComponent/>
+ <CircleComponent/>
 
 </>
    
