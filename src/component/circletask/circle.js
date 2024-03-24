@@ -16,11 +16,16 @@ class CircleComponent extends Component {
        
     }
     DeleteCircles = () => {
-       const del=[...this.state.circles]
+       let del=[...this.state.circles]
+     
+       del.pop()
+    //    del=del.slice(0,-1)
         this.setState({
-         circles: []
+         circles: del
         })
     }
+
+      
     render() {
         return (
             <>

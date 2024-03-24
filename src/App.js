@@ -15,6 +15,11 @@ import UpdatingComponent from "./component/lifecycle/updatingPhase";
 import Parent from "./component/lifecycle/unmountingPhase";
 import ParentComponent from "./component/purecomponents/parent";
 import CircleComponent from "./component/circletask/circle";
+import UseStateComponent1 from "./component/hooks/useState1";
+import UseStateComponent2 from "./component/hooks/useState2";
+import UseStateComponent3 from "./component/hooks/useState3";
+import UseStateComponent4 from "./component/hooks/useState4";
+
 
 
 
@@ -22,12 +27,11 @@ import CircleComponent from "./component/circletask/circle";
 function App() {
   return (
     <>
-{/* <MountingComponent/> */}
-<UpdatingComponent messages="welcome"/>
-<h1>-----------------------</h1>
-<Parent/>
-{/* <ParentComponent/>
-<CircleComponent/> */}
+{/* <UseStateComponent1/> 
+ <UseStateComponent2/>
+<UseStateComponent3/>  */}
+<UseStateComponent4/>
+ {/* <CircleComponent/> */}
 
 </>
    
