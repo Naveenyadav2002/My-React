@@ -28,8 +28,10 @@ function App() {
   return (
     <>
 
- <ParentComponent/>
- <CircleComponent/>
+<UseStateComponent1/>
+<UseStateComponent2/>
+<UseStateComponent3/>
+<UseStateComponent4/>
 
 </>
    
