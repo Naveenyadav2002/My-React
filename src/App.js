@@ -19,6 +19,8 @@ import UseStateComponent1 from "./component/hooks/useState1";
 import UseStateComponent2 from "./component/hooks/useState2";
 import UseStateComponent3 from "./component/hooks/useState3";
 import UseStateComponent4 from "./component/hooks/useState4";
+import Uncontrolled from "./component/forms/uncontrolled";
+import Controlled from "./component/forms/controlled";
 
 
 
@@ -28,10 +30,8 @@ function App() {
   return (
     <>
 
-<UseStateComponent1/>
-<UseStateComponent2/>
-<UseStateComponent3/>
-<UseStateComponent4/>
+<Uncontrolled/>
+<Controlled/>
 
 </>
    
