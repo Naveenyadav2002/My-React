@@ -21,6 +21,9 @@ import UseStateComponent3 from "./component/hooks/useState3";
 import UseStateComponent4 from "./component/hooks/useState4";
 import Uncontrolled from "./component/forms/uncontrolled";
 import Controlled from "./component/forms/controlled";
+import UseEffectEx1 from "./component/useEffect/useEffectEx1";
+import UseEffectEx2 from "./component/useEffect/useEffectEx2";
+import UseEffectEx3 from "./component/useEffect/useEfeectEx3";
 
 
 
@@ -30,9 +33,11 @@ function App() {
   return (
     <>
 
-<Uncontrolled/>
-<Controlled/>
+{/* <UseEffectEx1/> */}
 
+<UseEffectEx3/>
+
+{/* <UseEffectEx2/> */}
 </>
    
   );

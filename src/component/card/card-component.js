@@ -65,11 +65,11 @@ export const CardComponent4 =()=>{
 export const CardComponent5 =(prop)=>{
     return(
         <div className="card" id="html">
-            <img src="https://th.bing.com/th?id=OIP.QQUTcBAmVvxoiZ0CRJy5rwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="140px"></img>
-            <h2>{prop.item}</h2>
-            {/* <p>HTML stands for HyperText Markup Language. It is used to design web pages using a markup language.
-                 HTML is a combination of Hypertext and Markup language.
-        </p> */}
+            {/* <img src={prop.item.image} width="140px"></img> */}
+            <ImageComponent img={prop.item}/>
+            <h2>{prop.item.title}</h2>
+           <h3>{prop.item.category}</h3>
+           <b style={{display:"block"}}>${prop.item.price}</b>
         <ButtonComponent/>
         </div>
     )
