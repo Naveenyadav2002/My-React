@@ -47,8 +47,10 @@ const UseEffectEx2 = () => {
                     })
                     :
                     <>
-                        <h1>products Loading</h1>
+                        <center><h1>Welcome to Meeshoo</h1>
+                        <img src="https://www.digitalgabbar.com/wp-content/uploads/2020/04/meesho.jpg" heigth="400px" width={"300px"}></img><br></br>
                         <LoadingSpinner />
+                        </center>
                     </>
             }
 

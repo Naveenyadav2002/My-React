@@ -23,6 +23,7 @@ text-align: center;
   margin-left: 50px;
   background-color: blanchedalmond;
   margin-bottom: 50px;
+ 
   
 }
 .hey{
@@ -45,3 +46,36 @@ text-align: center;
 .card:hover{
   scale: 1.1;
 }
+.background{
+  background-image: url("https://entrackr.com/storage/2020/03/Meesho-grocery.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.contactbg{
+  background-image: url("https://media.istockphoto.com/id/1071568774/photo/website-page-contact-us-or-email-marketing-concept.jpg?s=170667a&w=0&k=20&c=fJ18aUC_m6ygItJgeoo-a2Cw9wV96ChMhQk7ZCmqAVI=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* height: 1000px;
+  width: 1000px; */
+}
+.eachProduct{
+  margin-left: 40%;
+  margin-top: 200px;
+  border: 2px solid black;
+  border-radius: 15px;
+ max-width: 400px; 
+  height: 500px;
+  text-align: center;
+  line-height: 15px;
+  padding-top:20px ;
+  background-color: rgb(173, 140, 140);
+}
+/* .bg{
+  background-image: url("https://img.freepik.com/free-vector/404-error-with-character-zero-error-design-template-website_114341-19.jpg?size=626&ext=jpg");
+  height: 1000px;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+} */

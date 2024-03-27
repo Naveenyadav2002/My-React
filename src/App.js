@@ -15,15 +15,16 @@ import UpdatingComponent from "./component/lifecycle/updatingPhase";
 import Parent from "./component/lifecycle/unmountingPhase";
 import ParentComponent from "./component/purecomponents/parent";
 import CircleComponent from "./component/circletask/circle";
-import UseStateComponent1 from "./component/hooks/useState1";
-import UseStateComponent2 from "./component/hooks/useState2";
-import UseStateComponent3 from "./component/hooks/useState3";
-import UseStateComponent4 from "./component/hooks/useState4";
+import UseStateComponent1 from "./component/useState/useState1";
+import UseStateComponent2 from "./component/useState/useState2";
+import UseStateComponent3 from "./component/useState/useState3";
+import UseStateComponent4 from "./component/useState/useState4";
 import Uncontrolled from "./component/forms/uncontrolled";
 import Controlled from "./component/forms/controlled";
 import UseEffectEx1 from "./component/useEffect/useEffectEx1";
 import UseEffectEx2 from "./component/useEffect/useEffectEx2";
 import UseEffectEx3 from "./component/useEffect/useEfeectEx3";
+import NavigationStack from "./navigation/navigation";
 
 
 
@@ -35,9 +36,10 @@ function App() {
 
 {/* <UseEffectEx1/> */}
 
-<UseEffectEx3/>
+{/* <UseEffectEx3/> */}
 
 {/* <UseEffectEx2/> */}
+<NavigationStack/>
 </>
    
   );

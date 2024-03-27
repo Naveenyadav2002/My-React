@@ -3,7 +3,7 @@
 import ImageComponent from "../image/image-component"
 import TextComponent from "../text/text"
 import ButtonComponent from "../button/button-component"
-
+import { Link } from "react-router-dom"
 
 
 const CardComponent=(get)=>{
@@ -70,7 +70,8 @@ export const CardComponent5 =(prop)=>{
             <h2>{prop.item.title}</h2>
            <h3>{prop.item.category}</h3>
            <b style={{display:"block"}}>${prop.item.price}</b>
-        <ButtonComponent/>
+        <ButtonComponent data={prop.item}/>
+    
         </div>
     )
 }
