@@ -5,11 +5,20 @@ import SettingScreen from "../pages/setting.-screen"
 import ContactScreen from "../pages/contact-screen"
 import ProductScreen from "../pages/product-details"
 import InvalidScreen from "../pages/invalid-screen"
+import { createContext, useState } from "react"
+
+ export const MessageInfo=createContext()
 
 const NavigationStack = () => {
+    useState({
+    message:"Hello! Good Morning"
+    })
     return (
         <>
             <BrowserRouter>
+            <MessageInfo.Provider value={{
+                 message:message
+            }}>
                 <Routes>
                     <Route path="/" Component={HomeScreen} />
                     <Route path="/About" Component={AboutScreen} />
@@ -20,6 +29,7 @@ const NavigationStack = () => {
 
                     <Route path="*" Component={InvalidScreen} />
                 </Routes>
+                </MessageInfo.Provider>
             </BrowserRouter>
         </>
     )
