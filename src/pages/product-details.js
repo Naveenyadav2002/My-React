@@ -1,12 +1,13 @@
 
 
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import ButtonComponent from '../component/button/button-component'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import { useState } from 'react'
 import LoadingSpinner from '../component/spinner/loading'
 import { CardComponent3 } from '../component/card/card-component'
+import { MessageInfo } from '../navigation/navigation'
 
 function ProductScreen() {
    const ParamsInformation = useParams()
@@ -29,7 +30,8 @@ function ProductScreen() {
       return Object.keys(data).length === 0
 
    }
-
+ 
+  const SharedInfo= useContext(MessageInfo)
 
    return (
       <div>
@@ -39,6 +41,8 @@ function ProductScreen() {
                <center><LoadingSpinner /></center>
                :
                <>
+               <h1>{SharedInfo.message}</h1>
+               
                   <div className="eachProduct" >
                      <img src={Product.thumbnail} width="300px" height="250px"></img>
                      <h2>TITLE : <i style={{ color: "chocolate" }}>{Product.title}</i></h2>

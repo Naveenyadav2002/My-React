@@ -48,8 +48,14 @@ function Navbar() {
                             <Link to="/Setting" style={linkStyle}>
                                 Settings
                             </Link>
+
                             {/* <img src="https://www.digitalgabbar.com/wp-content/uploads/2020/04/meesho.jpg"></img> */}
 
+                        </li>
+                        <li>
+                        <Link to="/SortbyPrice" style={linkStyle}>
+                                Sort
+                            </Link>
                         </li>
                         {/* <li style={{marginLeft:"450px"}}><img src="https://www.digitalgabbar.com/wp-content/uploads/2020/04/meesho.jpg" width="400px" height={"100px"}></img></li> */}
                     </ul>
