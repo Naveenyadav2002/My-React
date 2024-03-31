@@ -7,7 +7,7 @@ import axios from 'axios'
 import { useState } from 'react'
 import LoadingSpinner from '../component/spinner/loading'
 import { CardComponent3 } from '../component/card/card-component'
-import { MessageInfo } from '../navigation/navigation'
+import { CounterInfo } from '../navigation/navigation'
 
 function ProductScreen() {
    const ParamsInformation = useParams()
@@ -31,7 +31,7 @@ function ProductScreen() {
 
    }
  
-  const SharedInfo= useContext(MessageInfo)
+  const SharedInfo= useContext(CounterInfo)
 
    return (
       <div>

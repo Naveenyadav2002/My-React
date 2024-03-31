@@ -1,9 +1,9 @@
   import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { MessageInfo } from '../navigation/navigation'
+import { CounterInfo } from '../navigation/navigation'
   
   function InvalidScreen() {
-    const SharedInfo=useContext(MessageInfo)
+    const SharedInfo=useContext(CounterInfo)
     const Navigate=useNavigate()
 
     const NavigatetoHome=()=>{

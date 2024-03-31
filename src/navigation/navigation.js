@@ -13,14 +13,15 @@ import RegistrationScreen from "../pages/preRoutes/registration"
 
 
 
-export const MessageInfo = createContext()
+export const CounterInfo = createContext()
 
 const NavigationStack = () => {
-    const [message, setMessage] = useState("Good Morning")
+    const [counter, setCounter] = useState(0)
     const [Login, setLogin] = useState(false)
 
-    const ChangeMsg = () => {
-        setMessage("Good evening")
+    const ChangeCounter = () => {
+        console.log("msg")
+        setCounter(counter=>counter+10)
     }
     const LoginHandler = () => {
         setLogin(true)
@@ -30,10 +31,11 @@ const NavigationStack = () => {
         <>
             <BrowserRouter>
 
-                <MessageInfo.Provider value={{
-                    message,
+                <CounterInfo.Provider value={{
+                    // message,
+                    counter:counter,
                     name: " Hyderabd",
-                    messageChanger: ChangeMsg,
+                    messageChanger: ChangeCounter,
                     ChangeLogin: LoginHandler
                 }
                 }>
@@ -60,7 +62,7 @@ const NavigationStack = () => {
 
                         <Route path="*" Component={InvalidScreen} />
                     </Routes>
-                </MessageInfo.Provider>
+                </CounterInfo.Provider>
             </BrowserRouter>
         </>
     )

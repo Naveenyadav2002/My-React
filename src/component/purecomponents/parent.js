@@ -23,6 +23,7 @@ class ParentComponent extends Component {
                 <h2>Count:{this.state.counter}</h2>
                 <button onClick={this.increment}>Increment</button>
                 <ChildComponent counter={this.state.counter}/>
+                {/* <ChildComponent/> */}
             </>
         )
     }

@@ -42,6 +42,7 @@ function App() {
 
 {/* <UseEffectEx2/> */}
 <NavigationStack/>
+{/* <ParentComponent/> */}
 
 </>
    
