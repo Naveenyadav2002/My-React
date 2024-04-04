@@ -28,7 +28,7 @@ import UseEffectEx3 from "./component/useEffect/useEfeectEx3";
 import NavigationStack from "./navigation/navigation";
 import UseReducer from "./component/useReducer/useReducer";
 
-
+import useCounter from "./component/customHook/useCounter";
 
 
 
@@ -43,6 +43,7 @@ function App() {
 {/* <UseEffectEx2/> */}
 <NavigationStack/>
 {/* <ParentComponent/> */}
+
 
 </>
    

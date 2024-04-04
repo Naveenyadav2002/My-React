@@ -44,7 +44,7 @@ text-align: center;
   background-color: darkslategrey;
 }
 .card:hover{
-  scale: 1.1;
+  scale: 1.1 ;
 }
 .background{
   background-image: url("https://entrackr.com/storage/2020/03/Meesho-grocery.jpg");

@@ -67,7 +67,7 @@ export const CardComponent5 =(prop)=>{
         <div className="card" id="html">
             {/* <img src={prop.item.image} width="140px"></img> */}
             <ImageComponent img={prop.item}/>
-            <h2>{prop.item.title}</h2>
+            <h3>{prop.item.title}</h3>
            <h3>{prop.item.category}</h3>
            <b style={{display:"block"}}>${prop.item.price}</b>
         <ButtonComponent data={prop.item}/>

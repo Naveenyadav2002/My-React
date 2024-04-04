@@ -15,9 +15,9 @@ function UseMemo() {
     // }
 
     const isEven = useMemo(() => {
-        for(let i=0;i<1000;i++){
-            console.log(i)
-        }
+        // for(let i=0;i<1000;i++){
+        //     console.log(i)
+        // }
         console.log("isEven checker")
         return Counter1 % 2 == 0 ? "EVEN" : "ODD"
     }, [Counter1])

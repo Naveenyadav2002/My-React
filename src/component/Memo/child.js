@@ -3,9 +3,10 @@
 import React from 'react'
 
 function ChildMemo() {
+    console.log("child re-render")
   return (
-    <div>ChildMemo</div>
+    <div></div>
   )
 }
 
-export default ChildMemo
+export default React.memo(ChildMemo)

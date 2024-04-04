@@ -1,12 +1,14 @@
 import React from 'react'
 import UseEffectEx2 from '../component/useEffect/useEffectEx2'
 
-function SortbyPrice(prop) {
 
+function SortbyPrice(prop) {
+   
   return (
     <div>
         {/* {prop.item.SortbyPrice} */}
-        <button>Sort{prop.item}</button>
+        {/* <button>Sort{prop.item}</button> */}
+        
     </div>
   )
 }
